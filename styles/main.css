@@ -9,4 +9,18 @@ body{
     border: 2px solid black;
     border-radius: 5px 5px 5px 5px;
     margin-top: 2em;
-    }
+}
+#nav-menu ul{
+list-style-type: none;
+text-align: center;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+#nav-menu ul li{
+    display: inline;
+    padding: 2em 2em 2em 2em;
+}
+#nav-menu ul li a{
+    font-weight: bold;
+    color: blue;
+}
