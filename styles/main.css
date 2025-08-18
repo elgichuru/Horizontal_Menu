@@ -27,22 +27,6 @@ body{
 #nav-menu ul li a.current{
     text-decoration: none;
 }
-#nav-menu2 ul{
-    list-style-type: none;
-    overflow: auto;
-}
-#nav-menu2 ul li{
-    float: left;
-}
-#nav-menu2 ul li a{
-    display: block;
-    text-align: center;
-    width: 178px;
-    background-color: blue;
-    color: white;
-    padding: 1em 1em;
-    border-right: 2px  solid white;
-}
-#nav-menu2 ul li a.lastitem{
-    border-right: none;
+#nav-menu ul{
+    
 }
