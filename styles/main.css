@@ -27,6 +27,26 @@ body{
 #nav-menu ul li a.current{
     text-decoration: none;
 }
-#nav-menu ul{
-    
+#nav-menu2 ul{
+    list-style-type: none;
+    overflow: auto;
+}
+#nav-menu2 ul li{
+    float: left;
+    }
+#nav-menu2 ul li a{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    width: 175px;
+    color: white;
+      padding: 1em 0.0em;
+      font-weight: bold;
+      border-right: 2px solid white;
+}
+#nav-menu2 ul li a.lastitem{
+    border-right: none;
+}
+#nav-menu2 ul li a.current{
+    color: yellow;
 }
