@@ -13,35 +13,41 @@ body{
 #nav-menu ul{
     list-style-type: none;
     text-align: center;
+padding: 1em;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 0.5em 0.0em;
-}
-#nav-menu ul li a.current {
-   text-decoration: none;
 }
 #nav-menu ul li{
     display: inline;
-    padding: 2em 2em 2em 2em;
+    padding: 0 2em;
+}
+#nav-menu ul li a{
+   
     font-weight: bold;
+}
+#nav-menu ul li a.current{
+    text-decoration: none;
 }
 #nav-menu2 ul{
     list-style-type: none;
-    overflow: auto; /* Add this line */
-    }
-    #nav-menu2 ul li{
-        float: left;
-    }
-    #nav-menu2 ul li a{
-        display:block;
-        width: 175px;
-        background-color: blue;
-        color: white;
-        padding: 1em 0; /* top/bottom: 1em, left/right: 0 */
-        text-align: center;
-        border-right: 2px solid white;
-
-    }
-    #nav-menu2 ul li a.lastitem{
-        border-right: none;
+    overflow: auto;
+}
+#nav-menu2 ul li{
+    float: left;
+}
+#nav-menu2 ul li a{
+    display: block;
+    width: 175px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding: 1em 0.0em;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+#nav-menu2 ul li a.lastitem{
+    border-right: none;
+}
+#nav-menu2 ul li a.current{
+color: yellow;
     }
