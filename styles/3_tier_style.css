@@ -22,5 +22,15 @@ body{
     display: none; /*dont display submenus until hover*/
     position: absolute; /**/
     top: 100%;  /* position below the parent menu */
-
+}
+#nav-menu ul ul li{
+    float: none;
+}
+#nav-menu ul li:hover > ul{
+    display: block; /* display sub menu on hover of li */
+}
+#nav-menu > ul:after{
+    content: "";
+    display: block;
+    clear: both;
 }
