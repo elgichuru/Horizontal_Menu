@@ -13,4 +13,14 @@ body{
 #nav-menu ul{
     list-style-type: none;
     position: relative;
+    overflow: auto;
+}
+#nav-menu ul li{
+    float: left;
+}
+#nav-menu ul ul{
+    display: none; /*dont display submenus until hover*/
+    position: absolute; /**/
+    top: 100%;  /* position below the parent menu */
+
 }
